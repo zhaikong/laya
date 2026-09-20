@@ -22,7 +22,6 @@ wheels/
 .installed.cfg
 *.egg
 .DS_Store
-.env
 .pypirc
 
 
@@ -32,8 +31,6 @@ session-*.md
 .claude-session*
 
 # credentials - never commit
-.env
-.env.*
 *.pypirc
 .pypirc
 *.token
@@ -45,3 +42,5 @@ credentials.json
 # terminal transcripts dumped by the CLI (they quote whatever was pasted, including tokens)
 [0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]-*-local-command-*.txt
 *-local-command-*.txt
+config.bat
+node_modules
