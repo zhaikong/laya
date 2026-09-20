@@ -13,6 +13,10 @@ decision.
                                        assets/logo-lockup.svg  logo-lockup.png
                                        assets/logo-mark-mono.svg
 """
+import utils.clients
+import utils.http_session
+import utils.transport
+import utils.session
 import math
 import os
 import subprocess
